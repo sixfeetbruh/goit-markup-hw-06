@@ -625,7 +625,7 @@ button {
 }
 
 .social-link {
-    margin-right: 93px;
+    margin-right: auto;
 }
 
 .footer-logo {
@@ -801,6 +801,10 @@ button {
     margin-bottom: 10px;
 }
 
+.modal-comment-field {
+    margin-bottom: 20px;
+}
+
 .modal-form-comment {
     padding: 12px 16px;
     width: 100%;
@@ -811,7 +815,6 @@ button {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     resize: none;
-    margin-bottom: 10px;
 }
 
 .modal-form-name {
@@ -830,6 +833,8 @@ button {
     left: 12px;
     transform: translateY(-50%);
     color: var(--primary-title-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-check-field {
@@ -891,7 +896,7 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.model-form-button  {
+.modal-form-button  {
     background-color: var(--accent-color);
     color: var(--primary-bgc-color);
     font-weight: 700;
@@ -900,7 +905,7 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    padding: 10px 32px;
+    padding: 10px 52px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     transition-property: background-color, color;
@@ -908,9 +913,9 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.model-form-button:hover,
-.model-form-button:focus,
-.model-form-button:active {
+.modal-form-button:hover,
+.modal-form-button:focus,
+.modal-form-button:active {
     background-color: var(--accent-second-color);
     color: var(--primary-bgc-color);
 }
